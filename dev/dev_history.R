@@ -1,3 +1,5 @@
 package_name <- "jdlomenede"
 usethis::create_tidy_package(package_name, "JDL")
 dir.create(paste0(package_name, "/dev"))
+usethis::use_build_ignore("dev/")
+usethis::use_git()
